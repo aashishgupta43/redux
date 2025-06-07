@@ -8,7 +8,7 @@ function Counter() {
 
   return (
     <div>
-      <h2>Count:new {count}</h2>
+      <h2>Count:new again {count}</h2>
       <button onClick={() => dispatch({ type: 'INCREMENT' })}>+</button>
       <button onClick={() => dispatch({ type: 'DECREMENT' })}>-</button>
     </div>
